@@ -1,9 +1,9 @@
-# Google-auth Template
-🔐 A template for a NodeJS + TypeScript application using Passport with Google oAuth
+# Google-Mongo-auth Template
+🔐 A template for a NodeJS + TypeScript application using Passport and MongoDB with Google oAuth
 
 ### Cloning
 ```
-git clone https://github.com/sqwyer/google-auth.git
+git clone https://github.com/sqwyer/google-mongo-auth.git
 cd google-auth
 ```
 

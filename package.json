@@ -3,6 +3,7 @@
     "express": "^4.18.1",
     "express-session": "^1.17.3",
     "hbs": "^4.2.0",
+    "mongoose": "^6.3.4",
     "passport": "^0.6.0",
     "passport-google-oauth2": "^0.2.0"
   },
@@ -12,8 +13,8 @@
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
   },
-  "name": "google-auth",
-  "description": "🔐 A template for a NodeJS + TypeScript application using Passport with Google oAuth",
+  "name": "google-mongo-auth",
+  "description": "🔐 A template for a NodeJS + TypeScript application using Passport and MongoDB with Google oAuth",
   "version": "1.0.0",
   "main": "server/dist/index.js",
   "scripts": {
@@ -25,7 +26,13 @@
     "type": "git",
     "url": "git+https://github.com/sqwyer/google-auth.git"
   },
-  "keywords": ["nodejs", "google", "typescript", "passport", "google-oauth2"],
+  "keywords": [
+    "nodejs",
+    "google",
+    "typescript",
+    "passport",
+    "google-oauth2"
+  ],
   "author": "Sawyer Bivens",
   "license": "MIT",
   "bugs": {
