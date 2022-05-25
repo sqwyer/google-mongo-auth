@@ -6,6 +6,7 @@ import { config } from 'dotenv';
 import { GoogleRouter } from './routes/google';
 
 if(process.env.NODE_ENV != 'production') config();
+const PORT = Number(process.env.PORT) || 3000;
 
 require('./auth');
 
@@ -34,8 +35,8 @@ app.post('/auth/logout', (req, res) => {
         if(err) res.redirect('/?err=Failed to log out.');
         else res.redirect('/auth/google');
     });
-})
+});
 
-app.listen(3000, () => {
-    console.log('Running on PORT 3000')
-})
+app.listen(PORT, () => {
+    console.log('Running on PORT:' + PORT);
+});
