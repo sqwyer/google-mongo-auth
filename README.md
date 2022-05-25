@@ -4,7 +4,7 @@
 ### Cloning
 ```
 git clone https://github.com/sqwyer/google-mongo-auth.git
-cd google-auth
+cd google-mongo-auth
 ```
 
 ### Running locally
